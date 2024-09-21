@@ -16,7 +16,7 @@ ul li a:hover{
 .container-fluid img{
     margin-left: 11vw;
 }
-/* banner */
+/* banner1 */
 .banner{
     background-color:#dccdf8;
     color: #6A1B9A;
@@ -24,7 +24,10 @@ ul li a:hover{
     padding-top: 60px;
     letter-spacing: -1;
 }
- 
+ .h1 p{
+    color:  #6A1B9A;
+    font-size: 60px;
+}
 .h6{
     color: black;
     font-weight: bold;
@@ -41,20 +44,18 @@ ul li a:hover{
     text-align: center;
     padding-top: 100px;
 }
-h1{
-    color:  #6A1B9A;
-    font-size: 60px;
-}
+
+
 .col input{
     width:190% ;
    
 }
-.search{
+.col-6 i{
     color: #6A1B9A;
     border-width: 0;
-    background-color: white;
-    margin-top: 8px;
-    padding-left: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 12px;
+    padding-left: 300px;
 }
 /* courses */
 .courses{
@@ -129,6 +130,7 @@ h1{
 .banner2 h1{
     font-weight: bold;
     margin-top: 65px;
+    color: #6A1B9A;
 }
 .banner2 p{
     margin-top: 45px;
@@ -192,7 +194,7 @@ h1{
     color: #6A1B9A;
     font-size: 21px;
     font-weight: bold;
-    
+
 }
 .number{
     font-weight: normal;
