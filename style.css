@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    gap: 5px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: #6A1B9A;
+}
+.container-fluid img{
+    margin-left: 11vw;
+}
+/* banner */
+.banner{
+    background-color:#dccdf8;
+    color: #6A1B9A;
+    padding-left: 250px;
+    padding-top: 60px;
+    letter-spacing: -1;
+}
+ 
+.h6{
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    border-color:  #6A1B9A;
+    color: azure;
+    background-color: #6A1B9A;
+    border-radius: 45px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.container{
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color:  #6A1B9A;
+    font-size: 60px;
+}
+.col input{
+    width:190% ;
+   
+}
+.search{
+    color: #6A1B9A;
+    border-width: 0;
+    background-color: white;
+    margin-top: 8px;
+    padding-left: 350px;
+}
+/* courses */
+.courses{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.courses p{
+    font-size: smaller;
+}
+.card{
+    /* margin: 25px; */
+    height: 790px;
+    margin-left:25px;
+    background-color: #f9f6f9af;
+    border-color: white;
+    
+}
+.card:hover{
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3) ;
+    background-color: white;
+}
+
+.circle{
+    background-color: #bdbcc09e;
+    height: 150px;
+    border-radius:50%;
+    margin: 20px;
+}
+.circle i {
+    font-size: 70px;
+    margin-top: 35px;
+    color:  #6A1B9A;
+}
+.card-title{
+   
+    font-weight: bold;
+    color: #6A1B9A;
+}
+.card-text{
+    margin-top: 50px;
+}
+.card img{
+    margin-top: 20px;
+    height: 100px;
+}
+.btn-b{
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    color: #6A1B9A;
+    font-size: 25px;
+    border-width: 2px;
+    border-radius: 50px;
+    height: 65px;
+    width: 60%;
+    
+}
+.btn-b:hover{
+    color: rgb(255, 255, 255);
+    background-color: #6A1B9A;
+}
+/* banner2 */
+.banner2 img{
+    height: 950px;
+    width: 85%;
+}
+.banner2{
+    background-color: #dcd9e2;
+    
+}
+.banner2 h1{
+    font-weight: bold;
+    margin-top: 65px;
+}
+.banner2 p{
+    margin-top: 45px;
+}
+.banner2 ul li{
+    font-weight: bold;
+    margin-top: 10px;
+    /* list-style-type: none; */
+}
+.banner2 ul li::before {
+    content: "\272A"; /* Unicode star icon */
+    margin-right: 10px;
+    color: #6A1B9A; /* Matching purple */
+}
+.banner2 ul{
+    margin-top: 45px;
+}
+.banner3{
+    background-image: url('./images/pen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    color: rgb(167, 156, 4);
+}
+.container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container button{
+    border-radius: 30px;
+    height: 55px;
+    width: 15%;
+    color: #6A1B9A;
+    font-weight: bold;
+    
+}
+/* footer */
+
+.head{
+    color: #6A1B9A;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+    
+}
+.text
+{
+   color: rgb(193, 189, 189);
+   font-size: 15px;
+   font-weight: normal;
+}
+
+
+.pl{
+
+    color: #6A1B9A;
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+.number{
+    font-weight: normal;
+}
+.li
+{
+  width: 250px;
+  border-top: 1px solid #6A1B9A;
+}
+.footer-logo{
+
+    width:200px
+}
+
+
+.iso{
+    width:140px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.nac{
+    width:200px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.socio{
+    width:30px;
+}
+
+.social-icons{
+    display: flex;
+}
+
